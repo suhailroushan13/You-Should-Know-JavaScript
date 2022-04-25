@@ -20,4 +20,6 @@ console.log(firstName);
 // hello is not equal to Hello
 
 firstName = "JavaScript";
+
 console.log(firstName);
+

@@ -1,0 +1,62 @@
+console.log("Using Substring Method");
+var str = "Hello World";
+var res = str.substring(0, 5);
+console.log(res);
+// console.log("Using Substr Method");
+// var str = "Hello World";
+// var res = str.substr(0, 5);
+// console.log(res);
+// console.log("Using Split Method");
+// var str = "Hello World";
+// var res = str.split(" ");
+// console.log(res);
+// console.log("Using Replace Method");
+// var str = "Hello World";
+// var res = str.replace("Hello", "Hi");
+// console.log(res);
+// console.log("Using toUpperCase Method");
+// var str = "Hello World";
+// var res = str.toUpperCase();
+// console.log(res);
+// console.log("Using toLowerCase Method");
+// var str = "Hello World";
+// var res = str.toLowerCase();
+// console.log(res);
+// console.log("Using charAt Method");
+// var str = "Hello World";
+// var res = str.charAt(0);
+// console.log(res);
+// console.log("Using charCodeAt Method");
+// var str = "Hello World";
+// var res = str.charCodeAt(0);
+// console.log(res);
+// console.log("Using indexOf Method");
+// var str = "Hello World";
+// var res = str.indexOf("o");
+// console.log(res);
+// console.log("Using lastIndexOf Method");
+// var str = "Hello World";
+// var res = str.lastIndexOf("o");
+// console.log(res);
+// console.log("Using search Method");
+// var str = "Hello World";
+// var res = str.search("o");
+// console.log(res);
+// console.log("Using match Method");
+// var str = "Hello World";
+// var res = str.match("o");
+// console.log(res);
+// console.log("Using replace Method");
+// var str = "Hello World";
+// var res = str.replace("o", "O");
+// console.log(res);
+
+
+console.log(typeof NaN);
+
+console.log([] == 0);
+
+console.log([] + []);
+
+console.log(0.1 + 0.5 == 0.6);
+console.log(0.1 + 0.2 == 0.3);

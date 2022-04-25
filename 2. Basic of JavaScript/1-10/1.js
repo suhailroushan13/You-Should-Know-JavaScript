@@ -2,7 +2,7 @@
 
 console.log("Hello World");
 
-// Where you can use Single Qoutes or Double Qoutes
+// Where you can use Single Quotes or Double Quotes
 
 console.log("Working In Single Quotes");
 console.log("Working In Double Quotes");
