@@ -1,3 +1,2 @@
-x = 2;
-y = 3;
-
+console.log("Using Substring Method");
+var str = "Hello World";
