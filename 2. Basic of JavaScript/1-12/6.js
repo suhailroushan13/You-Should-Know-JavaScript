@@ -3,7 +3,9 @@ function box() {
     console.log("Function Scope");
     console.log(a);
   }
+
   box();
+  
   
   // Here Var a is working inside function scope
   
