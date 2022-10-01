@@ -3,7 +3,7 @@
 let x = new Date();
 console.log(x);
 // Output
-// 2021-07-22T06:56:00.000Z in Node JS
+// 2021-07-22T06:56:00.000Z in Node JS its in utc iso string
 
 // Output
 // Mon Sep 12 2022 04:21:33 GMT+0530 (India Standard Time) in Browser

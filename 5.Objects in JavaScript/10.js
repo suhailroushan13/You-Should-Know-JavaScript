@@ -1,26 +1,28 @@
-let x = new Date(2002,01,11);
-console.log(x);
-console.log(x.getDate());
-console.log(x.getDay());
-console.log(x.getFullYear());
-console.log(x.getHours());
-console.log(x.getMilliseconds());
-console.log(x.getMinutes());
-console.log(x.getMonth());
-console.log(x.getSeconds());
-console.log(x.getTime());
-console.log(x.getTimezoneOffset());
-console.log(x.getUTCDate());
-console.log(x.getUTCDay());
-console.log(x.getUTCFullYear());
-console.log(x.getUTCHours());
-console.log(x.getUTCMilliseconds());
-console.log(x.getUTCMinutes());
-console.log(x.getUTCMonth());
-console.log(x.getUTCSeconds());
+let x = new Date()
+console.log(x)
+// console.log(x.getFullYear());
+// console.log(x.getMonth());
+// console.log(x.getDate());
+// console.log(x.getDay());
+// console.log(x.getTime());
+// console.log(x.getHours());
+// console.log(x.getMinutes());
+// console.log(x.getSeconds());
+// console.log(x.getMilliseconds());
+// console.log(x.getTimezoneOffset());
+// console.log(x.getUTCDate());
+// console.log(x.getUTCDay());
+// console.log(x.getUTCFullYear());
+// console.log(x.getUTCHours());
+// console.log(x.getUTCMilliseconds());
+// console.log(x.getUTCMinutes());
+// console.log(x.getUTCMonth());
+// console.log(x.getUTCSeconds());
 
 x.setDate(12);
-console.log(x);
+console.log(x)
+
+console.log(x.getDate());
 x.setFullYear(2003);
 console.log(x);
 x.setHours(12);

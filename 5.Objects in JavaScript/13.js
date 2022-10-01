@@ -56,3 +56,139 @@ valueOf()	It returns the primitive value of a Date object.
  
  
 */
+// Dates in JavaScript
+
+// The Date Object
+
+// 1. Represents a point in time
+// 2. Let you allow to perform basic operations with date and time
+
+let one = new Date();
+// console.log(one);
+// Output : 2022-09-26T23:23:17.436Z
+// In Browser : Tue Sep 27 2022 04:55:19 GMT+0530 (India Standard Time)
+
+let two = new Date(1164441100645);
+// console.log(two);
+// Output : 2006-11-25T07:51:40.645Z
+// Browser : Sat Nov 25 2006 13:21:40 GMT+0530 (India Standard Time)
+
+let three = new Date("2002-02-11,01:30");
+// console.log(three);
+// document.write(three) // Console.log of Browser
+
+// Date Methods
+
+let now = new Date();
+// document.write(now)
+
+// TO
+// toDateString
+
+// GET                      // SET
+/*
+1. getDate()           setDate()
+2. getFullYear()       setFullYear()
+3. getMonth()          setMonth()
+5. getHours()          setHours()
+6. getDay()              ----- 
+7. getMinutes()        setMinutes()
+8. getSeconds()        setSeconds()
+9. getMilliSecondd()   setMilliseconds()
+
+*/
+
+document.write("<br/> <b>TO DATE STRING</b>");
+document.write("<br/>");
+document.write("1. toDateString()===>", now.toDateString()); // Tue Sep 27 2022
+document.write("<br/>");
+document.write("<br/> <b>GET METHODS</b>");
+document.write("<br/> 2. getDate()===>", now.getDate()); // 27
+document.write("<br/> 3. getFullYear()===>", now.getFullYear()); // 2022
+document.write("<br/> 4. getMonth()===>", now.getMonth()); // it shows 8 because it starts from 0
+document.write("<br/> 5. getDay()===>", now.getDay()); // 2 is Tuesday , 0 is Sunday , 1 is Monday
+document.write("<br/> 6. getHours()===>", now.getHours()); // it shows 5 because its 5:30AM Now
+document.write("<br/> 7. getMinutes()===>", now.getMinutes()); // it shows 30 because its 5:30 Now
+document.write("<br/> 8. getSeconds()===>", now.getSeconds()); // it shows 1 to 59 seconds
+document.write("<br/> 9. getMilliseconds()===>", now.getMilliseconds()); // it shows returns the milliseconds (0 to 999) of a date.
+document.write("<br/>");
+
+document.write("<br/> <b>SET METHODS</b>");
+document.write("<br/> 10. setDate()===>");
+now.setDate(11);
+document.write(now);
+document.write("<br/> 11. setFullYear()===>");
+now.setFullYear(2002);
+document.write(now);
+document.write("<br/> 12. setMonth()===>");
+now.setMonth(1);
+document.write(now);
+document.write("<br/> 13. setHours()===>");
+now.setHours(22);
+document.write(now);
+document.write("<br/> 14. setMinutes()===>");
+now.setMinutes(30);
+document.write(now);
+document.write("<br/> 15. setSeconds()===>");
+now.setSeconds(1);
+document.write(now);
+document.write("<br/> 16. setMilliseconds()===>");
+now.setMilliseconds(01);
+document.write(now);
+
+// 4 ways to create date
+
+// Date();
+// Date(milliseconds);
+// Date(dateString);
+// Date(year, month, day, hours, minutes, seconds, milliseconds);
+
+let today = new Date();
+var birthday = new Date("December 17, 1995 03:24:00");
+var birthday = new Date("1995-12-17T03:24:00");
+var birthday = new Date(1995, 11, 17); // the month is 0-indexed
+var birthday = new Date(1995, 11, 17, 3, 24, 0);
+var birthday = new Date(628021800000); // passing epoch timestamp
+// document.write(birthday);
+
+document.write("<br/>");
+document.write("<br/><b> Things you can add</b>");
+document.write("<br/>");
+document.write(`let now1 = new Date().toLocaleString("en-us", {
+  month: "long",
+  day: "numeric",
+  year: "numeric",
+  timeZone: "Asia/Kolkata",
+  weekday: "long",
+  hour: "numeric",
+  minute: "numeric",
+  second: "numeric",
+  hour12: true,
+  dayPeriod: "short",
+//   day: "2-digit",
+//   year: "2-digit",
+});
+`);
+
+let now1 = new Date().toLocaleString("en-us", {
+  month: "long",
+  day: "numeric",
+  year: "numeric",
+  timeZone: "Asia/Kolkata",
+  weekday: "long",
+  hour: "numeric",
+  minute: "numeric",
+  second: "numeric",
+  hour12: true,
+  dayPeriod: "short",
+  //   day: "2-digit",
+  //   year: "2-digit",
+});
+document.write("<br/>");
+
+document.write("<br/>");
+
+document.write("<br/>");
+
+// console.log(now);
+document.write(now1);

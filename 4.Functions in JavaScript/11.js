@@ -12,3 +12,6 @@ function fac1(num) {
 }
 let n = 5;
 console.log(fac1(n));
+
+
+
