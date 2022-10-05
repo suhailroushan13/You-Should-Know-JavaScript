@@ -49,7 +49,7 @@ const person1 = {
 console.log(person1);
 console.log(person1.fac); // If you add fac() then u will get error 
 
-// Using get because use can a function other key value pairs like person1.name and person1.fac 
+// Using get because you can use like  a function other key value pairs like person1.name and person1.fac 
 //  where you dont need to call a function like person1.fac()
 
 
