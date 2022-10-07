@@ -13,6 +13,7 @@ JavaScript Array Methods
 8.JavaScript find()
 9.JavaScript findIndex()
 10.JvaScript flat()
+
 11.JvaScript flatMap()
 12.J.vaScript forEach()
 13.JavaScript from()
