@@ -64,4 +64,5 @@ const start = performance.now();
 myAwesomeArray.map((x) => x + x * 10000000000);
 const end = performance.now();
 console.log(end - start);
+
 // 0.01813400536775589
