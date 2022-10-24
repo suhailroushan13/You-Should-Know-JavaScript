@@ -5,3 +5,5 @@ const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 1];
 
 console.log(arr.lastIndexOf(1));
 console.log(arr.at(9));
+console.log(arr.indexOf(1));
+

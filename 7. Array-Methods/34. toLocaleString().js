@@ -19,6 +19,14 @@ console.log(
 
 const number = 123456.789;
 
+
+console.log(
+  number.toLocaleString("en-IN", {
+    style: "currency",
+    currency: "INR",
+  })
+);
+
 // request a currency format
 console.log(
   number.toLocaleString("de-DE", { style: "currency", currency: "EUR" })

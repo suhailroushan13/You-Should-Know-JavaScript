@@ -4,7 +4,7 @@
 // Iterator object that contains the values for
 // each index in the array.
 
-let languages = ["JavaScript", "Java", "C++"];
+let languages = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // returns an Array Iterator object that contain values
 let iteratorObject = languages.values();
@@ -30,9 +30,9 @@ let arrayWithHole = ["A", "B", , "C"];
 let iteratorObject1 = arrayWithHole.values();
 
 // looping through iterator
-for (let value of iteratorObject1) {
-  console.log(value);
-}
+// for (let value of iteratorObject1) {
+//   console.log(value);
+// }
 
 // Output;
 
@@ -51,13 +51,13 @@ let fruits = ["Apple", "Banana", "Grapes"];
 let iteratorObject2 = fruits.values();
 
 // accessing the value of index 0 in the array
-console.log(iteratorObject2.next().value); // Apple
+// console.log(iteratorObject2.next().value); // Apple
 
 // changing the value of index 1
 fruits[1] = "Cherry";
 
 // accessing the value of index 1 in the array
-console.log(iteratorObject2.next().value); // Cherry 
+// console.log(iteratorObject2.next().value); // Cherry 
 // Output
 
 // Apple
