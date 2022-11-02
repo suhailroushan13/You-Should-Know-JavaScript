@@ -1,0 +1,56 @@
+Link : https://blog.devgenius.io/ultimate-js-object-methods-cheatsheet-2022-5adc88cdc074
+
+
+Managing Objects
+// Create object with an existing object as prototype
+Object.create()
+
+// Adding or changing an object property
+Object.defineProperty(object, property, descriptor)
+
+// Adding or changing object properties
+Object.defineProperties(object, descriptors)
+
+// Accessing Properties
+Object.getOwnPropertyDescriptor(object, property)
+
+// Returns all properties as an array
+Object.getOwnPropertyNames(object)
+
+// Accessing the prototype
+Object.getPrototypeOf(object)
+
+// Returns enumerable properties as an array
+Object.keys(object)
+
+Protecting Objects
+// Prevents adding properties to an object
+Object.preventExtensions(object)
+
+// Returns true if properties can be added to an object
+Object.isExtensible(object)
+
+// Prevents changes of object properties (not values)
+Object.seal(object)
+
+// Returns true if object is sealed
+Object.isSealed(object)
+
+// Prevents any changes to an object
+Object.freeze(object)
+
+// Returns true if object is frozen
+Object.isFrozen(object)
+
+
+//The method Object.values() allows you to get all the values inside an 
+object as an array. You just have to pass the object as an argument to
+the method Object.values() .
+Object.values(object)
+
+
+// The method Object.entries() is also useful.
+It allows you to get both the keys and values
+of an object and it returns a multidimensional
+array that contains other arrays for each key and value.
+Object entries
