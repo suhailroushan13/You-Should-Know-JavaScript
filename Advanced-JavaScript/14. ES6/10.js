@@ -82,3 +82,76 @@ Unlike Maps, WeakMaps are not iterabl
 */
 
 
+
+/*
+JavaScript WeakMap
+The WeakMap is similar to a Map. However, WeakMap can only contain objects as keys. For example,
+
+const weakMap = new WeakMap();
+console.log(weakMap); // WeakMap {} 
+
+let obj = {};
+
+// adding object (element) to WeakMap
+weakMap.set(obj, 'hello');
+
+console.log(weakMap); // WeakMap {{} => "hello"}
+Run Code
+When you try to add other data types besides objects, WeakMap throws an error. For example,
+
+const weakMap = new WeakMap();
+
+// adding string as a key to WeakMap
+weakMap.set('obj', 'hello');
+Run Code
+// throws error
+// TypeError: Attempted to set a non-object key in a WeakMap
+WeakMap Methods
+WeakMaps have methods get(), set(), delete(), and has(). For example,
+
+const weakMap = new WeakMap();
+console.log(weakMap); // WeakMap {} 
+
+let obj = {};
+
+// adding object (element) to WeakMap
+weakMap.set(obj, 'hello');
+
+console.log(weakMap); // WeakMap {{} => "hello"}
+
+// get the element of a WeakMap
+console.log(weakMap.get(obj)); // hello
+
+// check if an element is present in WeakMap
+console.log(weakMap.has(obj)); // true
+
+// delete the element of WeakMap
+console.log(weakMap.delete(obj)); // true
+
+console.log(weakMap); // WeakMap {} 
+Run Code
+WeakMaps Are Not iterable
+Unlike Maps, WeakMaps are not iterable. For example,
+
+const weakMap = new WeakMap();
+console.log(weakMap); // WeakMap {} 
+
+let obj = {};
+
+// adding object (element) to WeakMap
+weakMap.set(obj, 'hello');
+
+
+// looping through WeakMap
+for (let i of weakMap) {
+
+    console.log(i);  // TypeError
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+*/
