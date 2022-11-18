@@ -44,9 +44,12 @@ console.log(map1);
 
 console.log(map1.size);
 map1.set("Person", { name: "Suhail" });
+map1.set("Student", { name: "Roushan", age: 22 })
+map1.set("Students", { name: "Roushan", age: 22 });
+
 console.log(map1);
 
-console.log(map1.size);
+console.log("Size is " + map1.size);
 
 let map3 = new Map();
 
