@@ -1,0 +1,25 @@
+{
+    "name": "Suhail",
+    "age": 20,
+    "isAlive": true,
+    "address": {
+        "city": "Hyderabad",
+        "zip": 500045
+    }
+}
+// This is a File name JSONC
+// JavaScript Object Notation With Comments
+/*
+Use of JSON
+JSON is the most commonly used format for
+transmitting data (data interchange) from a 
+server to a client and vice-versa. 
+JSON data are very easy to parse and use.
+It is fast to access and manipulate JSON 
+data as they only contain texts.
+
+JSON is language independent.
+You can create and use JSON in other programming languages too.
+
+
+*/

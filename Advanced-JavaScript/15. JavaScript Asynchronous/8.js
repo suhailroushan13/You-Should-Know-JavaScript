@@ -1,15 +1,20 @@
 // Promises
 
-let value = new Promise(function (resolve, reject) {
-  resolve("Hau Bhai Resolve Hogaya");
-  reject("Error");
+let data = new Promise(function (resolve, reject) {
+  resolve();
+  reject();
 });
 
-value
-  .then(() => {
-    let data = true;
-    if (data) console.log("True");
+data
+  .then(function () {
+    console.log("I am Cool");
   })
-  .catch(() => {
-    console.log("Error");
+  .then(() => {
+    console.log("I am From Coool 2", de);
+  })
+  .then(() => {
+    console.log("I am tHIRD Cool");
+  })
+  .catch(() => { 
+    console.log("I am Error");
   });

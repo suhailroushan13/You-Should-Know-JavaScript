@@ -1,0 +1,10 @@
+{
+    "name": "Suhail",
+    "age": 20,
+    "isAlive": true,
+    "address": {
+        "city": "Hyderabad",
+        "zip": 500045
+    }
+}
+
